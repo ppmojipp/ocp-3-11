@@ -1,4 +1,4 @@
-#Create Addional Storage 
+# Create Addional Storage 
 Step 1
 
 fdisk /deb/sdb
