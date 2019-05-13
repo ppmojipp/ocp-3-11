@@ -12,6 +12,7 @@
 - Step 10 - Result : DOCKER_STORAGE_OPTIONS="--storage-driver devicemapper --storage-opt dm.fs=xfs --storage-opt dm.thinpooldev=/dev/mapper/rhel-docker--pool --storage-opt dm.use_deferred_removal=true --storage-opt dm.use_deferred_deletion=true "
 - Step 11 - Verify : lvs
 - Step 11 - Result : LV          VG   Attr       LSize  Pool Origin Data%  Meta%  Move Log Cpy%Sync Convert
+  
   docker-pool rhel twi-a-t---  9.29g             0.00   0.12
 - Step 12 : systemctl enable docker
 - Step 13 : systemctl start docker
