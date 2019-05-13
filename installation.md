@@ -5,7 +5,7 @@
 - Step 4 : subscription-manager repos --enable="rhel-7-server-rpms" --enable="rhel-7-server-extras-rpms" --enable="rhel-7-server-ose-3.11-rpms" --enable="rhel-7-server-ansible-2.6-rpms"
 - Step 5 : yum install wget git net-tools bind-utils yum-utils iptables-services bridge-utils bash-completion kexec-tools sos psacct NetworkManager -y
 - Step 6 : yum update -y
-- Step 7 : yum install openshift-ansible -y
+- Step 7 : yum install openshift-ansible -y (Only the Bastion Host)
 - Step 8 : yum install docker-1.13.1 -y
 - Step 9 : docker-storage-setup
 - Step 10 - Verify : cat /etc/sysconfig/docker-storage
