@@ -18,4 +18,4 @@
 - Step 12 : systemctl enable docker
 - Step 13 : systemctl start docker
 - Step 14 : systemctl is-active docker
-- Step 15 : Create htpasswd on the ansible host path /etc/origin/master/htpasswd
+- Step 15 : (On Bastion) htpasswd /etc/origin/master/htpasswd ocpadm
